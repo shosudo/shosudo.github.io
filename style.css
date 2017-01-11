@@ -1,0 +1,29 @@
+/* $xxxを編集するにはlessファイルを修正する必要がある */
+
+body {
+        font-size: 14px;
+        padding-top: 70px; /*header固定用のpadding*/
+        font-family:"メイリオ",Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Osaka,"ＭＳ Ｐゴシック",sans-serif;
+        letter-spacing: .1em; /*行間をあける*/
+        text-align: justify; /*段の両端を揃える*/
+      }
+
+      
+.panel-extend{
+        border: 0;
+        outline: 1px solid #ccc;
+        outline-offset: -1px;
+}
+
+.icon .glyphicon {
+margin-bottom: 0px;
+font-size: 40px;
+color: #777;
+}
+
+.icon .glyphicon-info-sign{
+font-size: 15px;
+}
+
+/*以下、BootstrapのClassをcssで上書きしているが、本来は新しくClassを宣言して変更するべき
+　なぜなら、BootstrapのCSSのほうが優先されるため*/
