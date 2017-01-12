@@ -25,5 +25,17 @@ color: #777;
 font-size: 15px;
 }
 
+footer {
+margin-top: 10px;
+border-top: 1px solid#e7e7e7;
+background-color: #f8f8f8;
+text-align: center;
+}
+.copyright {
+padding: 20px 0;
+font-size: 12px;
+color: #666;
+}
+
 /*以下、BootstrapのClassをcssで上書きしているが、本来は新しくClassを宣言して変更するべき
 　なぜなら、BootstrapのCSSのほうが優先されるため*/
